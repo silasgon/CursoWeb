@@ -2,7 +2,9 @@ const a = 1
 const b = 2
 const c = 3
 
+//Como era criado antigamente
 const obj1 = {a: a, b: b, c: c}
+//ES6 Nova notação para criar objeto
 const obj2 = {a, b, c}
 
 console.log(obj1, obj2)
